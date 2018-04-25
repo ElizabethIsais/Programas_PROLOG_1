@@ -144,6 +144,6 @@ hermana(X, Y) :- mujer(X), ((padre(Z, X), madre(V, X)) , (padre(Z, Y), madre(V, 
 % Y = luis ;
 % X = Y, Y = rocio ;
 % X = rocio,
-Y = maria ;
-X = rocio,
-Y = luis .
+% Y = maria ;
+% X = rocio,
+% Y = luis .
